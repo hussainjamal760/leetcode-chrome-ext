@@ -1,6 +1,12 @@
 # 🚀 LeetCode Auto Sync Chrome Extension
 
-A production-grade Chrome extension that automatically syncs your LeetCode solutions to GitHub and Notion with AI-powered summaries.
+> **Production-grade Chrome extension that automatically syncs your LeetCode solutions to GitHub and Notion with AI-powered summaries.**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue.svg)](https://developer.chrome.com/docs/extensions/)
+
+---
 
 ## ✨ Features
 
@@ -13,6 +19,15 @@ A production-grade Chrome extension that automatically syncs your LeetCode solut
 - 🎨 **Beautiful UI**: Modern, responsive design
 - 📈 **Scalable**: Modular architecture ready for production
 
+## 🎬 Demo
+
+After solving a LeetCode problem:
+1. Click "Sync Solution" button
+2. Wait 5-10 seconds
+3. ✅ Solution pushed to GitHub
+4. ✅ Entry created in Notion
+5. ✅ AI summary generated
+
 ## 🏗️ Architecture
 
 ```
@@ -22,6 +37,15 @@ A production-grade Chrome extension that automatically syncs your LeetCode solut
 ```
 
 **Security First**: All external API calls go through the backend. No API keys in frontend code.
+
+## 📚 Documentation
+
+- **[Quick Start Guide](QUICK_START.md)** - Get running in 5 minutes
+- **[Setup Guide](SETUP_GUIDE.md)** - Detailed setup instructions
+- **[API Examples](API_EXAMPLES.md)** - Test the API
+- **[Deployment Guide](DEPLOYMENT.md)** - Deploy to production
+- **[Project Structure](PROJECT_STRUCTURE.md)** - Architecture overview
+- **[Contributing](CONTRIBUTING.md)** - Contribution guidelines
 
 ## 🎯 What Gets Synced
 
